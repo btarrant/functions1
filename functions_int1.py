@@ -17,3 +17,7 @@ print(x)
 # 2.
 students[0]['last_name'] = "Bryant"
 print(students)
+
+# 3.
+sports_directory['soccer'][0] = 'Andres'
+print( sports_directory['soccer'])
