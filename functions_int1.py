@@ -26,7 +26,6 @@ print( sports_directory['soccer'])
 z[0]['y'] = 30
 print(z)
 
-
 # Iterate Through A List Of Dictionaries
 
 students = [
