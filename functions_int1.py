@@ -9,6 +9,11 @@ sports_directory = {
     'soccer' : ['Messi', 'Ronaldo', 'Rooney']
 }
 z = [ {'x': 10, 'y': 20} ]
+
 # 1.
 x[1][0] = 15
 print(x)
+
+# 2.
+students[0]['last_name'] = "Bryant"
+print(students)
