@@ -43,3 +43,15 @@ def iterate_dictionary(list):
         print(output)
 
 iterate_dictionary(students)
+
+# Get Values From a List of Dictionaries
+
+def iterate_dictionary2(key_name, list):
+    for i in range(0, len(list)):
+        
+        for key,val in list[i].items():
+            if key == key_name:
+                print(val)
+
+iterate_dictionary2('first_name', students)
+iterate_dictionary2('last_name', students)
